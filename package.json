@@ -1,5 +1,5 @@
 {
-  "name": "autoapi",
+  "name": "auto-fetch",
   "version": "0.0.1",
   "description": "Auto API based on fetch and JS Proxys",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Poyoman39/autoapi.git"
+    "url": "git@github.com:Poyoman39/auto-fetch.git"
   },
   "keywords": [
     "auto",

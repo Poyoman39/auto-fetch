@@ -1,3 +1,3 @@
-const createAutoApi = require('./lib');
+const createAutoFetch = require('./lib');
 
-module.exports = createAutoApi;
+module.exports = createAutoFetch;

@@ -1,18 +1,18 @@
-# autoapi
+# auto-fetch
 
-Autoapi provides a [Proxy](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Proxy) generating fetch requests based on method names.
+auto-fetch provides a [Proxy](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Proxy) generating fetch requests based on method names.
 
 ## Quick start
 
 ```
-npm i autoapi
+npm i auto-fetch
 ```
 ```
-const createAutoApi = require('autoapi');
+const createAutoFetch = require('auto-fetch');
 
 // ...
 
-const api = createAutoApi({
+const api = createAutoFetch({
   baseUrl: 'https://example.org',
   headers: { /* some default headers */ },
 });
@@ -25,14 +25,14 @@ api.user.jamy.setPreferences(); // POST is default request method => POST https:
 ## Doc
 
 ---
-### createAutoApi(options)
-Create a new autoapi
+### createAutoFetch(options)
+Create a new api
 
  - **options.baseUrl** *(required)* ***string***: Base url of future requests
  - **options.headers** *(default: null)* ***object***: default headers of future requests
 
 ---
-### autoapi.some.path.method()
+### api.some.path.method()
 You can put as much url segments before calling the function.
 
 method can be any REST method (get, post, put, patch, delete)
