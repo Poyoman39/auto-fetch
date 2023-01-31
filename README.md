@@ -5,10 +5,10 @@ auto-fetch provides a [Proxy](https://developer.mozilla.org/fr/docs/Web/JavaScri
 ## Quick start
 
 ```
-npm i auto-fetch
+npm i @poyoman/auto-fetch
 ```
 ```
-const createAutoFetch = require('auto-fetch');
+const createAutoFetch = require('@poyoman/auto-fetch');
 
 // ...
 
