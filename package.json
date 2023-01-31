@@ -1,0 +1,37 @@
+{
+  "name": "autoapi",
+  "version": "0.0.1",
+  "description": "Auto API based on fetch and JS Proxys",
+  "main": "index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Poyoman39/autoapi.git"
+  },
+  "keywords": [
+    "auto",
+    "autoapi",
+    "api",
+    "fetch",
+    "proxy"
+  ],
+  "scripts": {
+    "check:update": "npm-check -u",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "author": "Johan Maupetit (johan.maupetit@shapy.co)",
+  "license": "LGPL 2.1",
+  "dependencies": {
+    "qs": "^6.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "npm-check": "^6.0.1"
+  }
+}
